@@ -87,45 +87,33 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/ContactsFont"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:autoLink="phone"
                 android:drawableEnd="@mipmap/ic_call_black_24dp"
-                android:drawablePadding="@dimen/drawable_padding"
                 android:drawableRight="@mipmap/ic_call_black_24dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="end"
-                android:text="@string/phone"
-                android:textColor="@color/colorAccent"
-                android:textSize="@dimen/contacts_text_size" />
+                android:text="@string/phone" />
 
             <TextView
+                style="@style/ContactsFont"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:autoLink="map"
                 android:drawableEnd="@mipmap/ic_map_black_24dp"
-                android:drawablePadding="@dimen/drawable_padding"
                 android:drawableRight="@mipmap/ic_map_black_24dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="end"
-                android:text="@string/address"
-                android:textColor="@color/colorAccent"
-                android:textSize="@dimen/contacts_text_size" />
+                android:text="@string/address" />
 
             <TextView
+                style="@style/ContactsFont"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autoLink="web"
                 android:drawableEnd="@mipmap/ic_public_black_24dp"
-                android:drawablePadding="@dimen/drawable_padding"
                 android:drawableRight="@mipmap/ic_public_black_24dp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:gravity="end"
-                android:text="@string/site"
-                android:textColor="@color/colorAccent"
-                android:textSize="@dimen/contacts_text_size" />
+                android:text="@string/site" />
 
         </LinearLayout>
 

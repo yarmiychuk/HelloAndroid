@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Style of TextView with contact information -->
+    <style name="ContactsFont" parent="@android:style/TextAppearance">
+        <item name="android:gravity">end</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/contacts_text_size</item>
+    </style>
+
 </resources>
