@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroid</string>
+
+    <!-- Text -->
+    <string name="slogan">learn. think. do.</string>
+    <string name="address">2465 Latham St\nMountain View, CA 94043</string>
+    <string name="phone">650\-555\-5555</string>
+    <string name="site">www.udacity.com</string>
+
+    <!-- Content descriptions -->
+    <string name="student">Student</string>
+    <string name="logo_letter">Udacity logo (letter)</string>
+    <string name="logo_sign">Udacity logo (sign)</string>
+
+</resources>
